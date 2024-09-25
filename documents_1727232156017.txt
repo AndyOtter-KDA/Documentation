@@ -61,7 +61,7 @@
     },
     "documentation/token-and-sale/staking-and-rewards/": {
         "title": "Staking & Rewards",
-        "text": ""
+        "text": "Staking & Rewards Please note that the specific staking rewards and tiers may be subject to change based on network conditions and project developments. Staking $KPAD tokens will provide various benefits, including: Earning $KDA rewards:  Stakers will receive a  proportional share of 30,000 $KDA  allocated from the funds raised during the presale. Exclusive access to features:  Stakers will have  priority whitelist access to all of our verified token launches  if they stake at least 200,000 $KPAD tokens. In the future, we plan to implement a tiered system for whitelist rewards, allowing stakers with less than 200,000 $KPAD to have a chance (not guaranteed) of being whitelisted. Staking rewards will be distributed daily. Additional Benefits: Community Engagement:  Stakers will be eligible to participate in exclusive community events and initiatives. To start staking your $KPAD tokens, simply visit the KadPad platform and stake your tokens in the designated staking pool."
     },
     "documentation/project-launch/project-launch-packages/": {
         "title": "Project Launch Packages",
