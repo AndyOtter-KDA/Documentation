@@ -1,0 +1,10 @@
+{
+    "version": "2.3.9",
+    "fields": [
+        "title",
+        "text"
+    ],
+    "fieldVectors": [],
+    "invertedIndex": [],
+    "pipeline": []
+}
