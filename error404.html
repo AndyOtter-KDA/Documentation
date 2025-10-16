@@ -4,13 +4,13 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>
-        Not Found - KadPad Documentation
+        Not Found - Kadpad Documentation
     </title>
     <meta name="theme-color" content="#ffffff">
-    <meta name="description" content="KadPad Documents"/>
+    <meta name="description" content="Our Compliant Documentation"/>
     <link rel="icon" type="image/svg+xml" href="https://docs.kadpad.xyzhttps://kadpad.xyz/favicon.svg"/>
-    <link rel="icon" type="image/png" sizes="32x32" href="https://docs.kadpad.xyz/_images/favicon.svg">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://docs.kadpad.xyz/_images/favicon.svg">    
+    <link rel="icon" type="image/png" sizes="32x32" href="https://docs.kadpad.xyzhttps://kadpad.xyz/favicon.svg">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://docs.kadpad.xyzhttps://kadpad.xyz/favicon.svg">    
         
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin=""/>
@@ -30,7 +30,7 @@
     </style>
     <script>
         function getInitialTheme() {
-            const savedTheme = localStorage.getItem('theme') || 'dark';
+            const savedTheme = localStorage.getItem('theme') || 'system';
             if (savedTheme === 'light' || savedTheme === 'dark') return savedTheme;
             return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
         }
@@ -68,12 +68,12 @@
                 <div class="logo">
                     
                         <div class="icon">
-                            <img src="https://kadpad.xyz/favicon.svg">
+                            <img src="https://kadpad.xyz/favicon.svg" alt="KadPad Logo">
                         </div>
                     
                     <div>
                         
-                            <a href="https://docs.kadpad.xyz/"><span class="line-clamp-1">KadPad Documentation</span></a>
+                            <a href="https://docs.kadpad.xyz"><span class="line-clamp-1">Kadpad Documentation</span></a>
                         
                     </div>
                 </div>
@@ -138,7 +138,7 @@
             <div class="stack__column stack__gap-4 stack__center">
                 
                 <div class="stack__row stack__center">
-                    <span><span>2025 &copy; KadPad</span></span>
+                    <span><span>Year &copy; Company Name</span></span>
                 </div>
             </div>
         </footer>
@@ -172,8 +172,8 @@
     import {preInitTree} from 'https://docs.kadpad.xyz/_lib/pre.js';
     preInitTree();
     await initPage();
-    await initTheme('dark');
-    await initSearch('https://docs.kadpad.xyz', '1757909386357');
+    await initTheme('system');
+    await initSearch('https://docs.kadpad.xyz', '1760581220647');
     document.documentElement.style.visibility = 'visible';
     document.documentElement.style.opacity = '1';
     initToc();
